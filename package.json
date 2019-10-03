@@ -1,0 +1,43 @@
+{
+  "name": "super-input-field",
+  "version": "1.1.11",
+  "description": "A npm library to dynamically search using an input field",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anish Surti",
+  "license": "ISC",
+  "keywords": [
+    "text",
+    "inputfield",
+    "super",
+    "dynamic",
+    "fuse",
+    "react component"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "peerDependencies": {
+    "react": "^16.10.1",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "fuse.js": "^3.4.5",
+    "react": "^16.10.1",
+    "styled-components": "^4.4.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "fuse.js": "^3.4.5",
+    "styled-components": "^4.4.0"
+  }
+}
