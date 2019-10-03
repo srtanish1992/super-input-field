@@ -73,4 +73,4 @@ export default SuperInputField;
 
 **Complete Source Code and Contributing**
 
-Kindly refer the github link for the full source code. Also, if you have any ideas on how to make this better? Open an issue!
+Kindly refer the [github link] (https://github.com/srtanish1992/super-input-field) for the full source code. Also, if you have any ideas on how to make this better? Open an issue!
